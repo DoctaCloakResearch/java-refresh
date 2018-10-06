@@ -67,5 +67,58 @@ class PhraseOMatic {
         System.out.println(wordListOne[1]);
         String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + fruitList[rand3];
         System.out.println("What we need is a " + phrase);
+
+        Shuffle1 shuffle = new Shuffle1();
+
+        Exercise1b exercise1b = new Exercise1b();
+    }
+}
+
+class Shuffle1 {
+    public Shuffle1() {
+        int x = 3;
+
+        while (x > 0) {
+            if (x > 2) {
+                System.out.print("a");
+
+                x = x - 1;
+
+                System.out.print("-");
+            }
+
+            if (x == 2) {
+                System.out.print("b c");
+                x = x - 1;
+
+                System.out.print("-");
+            }
+
+            if (x == 1) {
+                System.out.print("d");
+                x = x - 1;
+            }
+        }
+
+    }
+}
+
+
+class Exercise1b {
+    public Exercise1b () {
+        // Issue:  The book code would have turned into an infinite loop.  This is a fix.
+        int x = 1;
+        while ( x  < 10 ) {
+            if ( x > 3 ) {
+                System.out.println("big x");
+            }
+            x++;
+        }
+    }
+}
+
+class Exercise1C {
+    public Exercise1C () {
+        int x
     }
 }

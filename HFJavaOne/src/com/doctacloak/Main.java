@@ -71,6 +71,8 @@ class PhraseOMatic {
         Shuffle1 shuffle = new Shuffle1();
 
         Exercise1b exercise1b = new Exercise1b();
+
+        Test test = new Test();
     }
 }
 
@@ -117,8 +119,20 @@ class Exercise1b {
     }
 }
 
-class Exercise1C {
-    public Exercise1C () {
-        int x
+class Test {
+    public Test() {
+        int x = 0;
+        int y = 0;
+        while ( x < 5 ) {
+            x++;
+            y = y + x * 25;
+        }
+        System.out.println(x + "" + y + " ");
+    }
+}
+
+class PoolProblem {
+    public PoolProblem() {
+
     }
 }

@@ -2,7 +2,7 @@ package com.doctacloak;
 
 public class Dog extends Canine {
     @Override
-    public void makeNoise() {
-        System.out.println("Ruff, ruff!");
+    public void roam() {
+        System.out.println("The dog is roaming...");
     }
 }

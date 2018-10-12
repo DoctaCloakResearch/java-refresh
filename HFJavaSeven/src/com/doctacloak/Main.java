@@ -19,7 +19,7 @@ public class Main {
             if (count == 2) {
                 break;
             }
-            
+
             animal.makeNoise();
             animal.roam();
             count++;
@@ -27,6 +27,5 @@ public class Main {
         System.out.println("Yeet");
         Cat kitten = new Cat();
         kitten.eat("Fish");
-
     }
 }

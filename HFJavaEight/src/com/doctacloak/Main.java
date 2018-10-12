@@ -17,5 +17,14 @@ public class Main {
 
         Object obj = new Object();
         System.out.println(dog.getClass());
+        System.out.println(myAnimals.hashCode());
+        Object o = dog;
+        Dog d;
+        if (o instanceof Dog) {
+            d = (Dog) o;
+            d.eat();
+        }
+
+
     }
 }

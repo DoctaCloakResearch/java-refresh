@@ -1,4 +1,4 @@
-package com.doctacloak;
+package com.doctacloak.servlet;
 
 import java.io.IOException;
 
